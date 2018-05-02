@@ -1,0 +1,25 @@
+% Works with the metropolis theme from OverLeaf: 
+% https://www.overleaf.com/latex/templates/metropolis-beamer-theme/qzyvdhrntfmr
+
+\documentclass[10pt]{beamer}
+
+\usetheme[progressbar=frametitle]{metropolis}
+\usepackage{appendixnumberbeamer}
+
+\usepackage{booktabs}
+\usepackage[hyperref, UTF8]{ctex}
+\setCJKmainfont{微软雅黑}
+
+\usepackage{pgfplots}
+\usepgfplotslibrary{dateplot}
+
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+
+\newcommand\myshade{85}
+\hypersetup{
+  linkcolor  = black!\myshade!black,
+  citecolor  = black!\myshade!black,
+  urlcolor   = black!\myshade!black,
+  colorlinks = true,
+}
